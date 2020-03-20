@@ -12,7 +12,7 @@ LOCAL_SRC_FILES := \
     bandwidth.cpp \
 
 LOCAL_MODULE := memtest
-LOCAL_MODULE_TAGS := debug
+#LOCAL_MODULE_TAGS := debug
 LOCAL_CFLAGS += \
     -fomit-frame-pointer \
     -Wall \
